@@ -28,7 +28,12 @@ This is a website for a nonprofit organisation that offers free courses. It was 
   ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image1.jpeg)<br/><br/>
   ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image2.jpeg)<br/><br/>
   ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image3.jpeg)<br/><br/>
-  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image9.jpeg)
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image4.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image5.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image6.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image7.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image7.jpg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image9.jpg)
  
  ## Author
  The authors responsible for this website are:<br/>
