@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+  margin: 0;
+  padding: 0; /* This will be applicable for all html elements */
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex; /*SETTING THE LENGTH OF FLEXIBLE ITEMS*/
+  align-items: center; /* This made the logo move a little bit lower */
+  padding: 20px;
+}
+nav {
+  flex: 1;
+  text-align: right; /* We shifted the list to the right */
+}
+nav ul {
+  display: inline-block; /*allows to set a width and height on the element.*/
+  list-style-type: none; /* We used this part to remove the bullet form */
+}
+nav ul li {
+  display: inline-block; /*This made the menubar to be aligned horizontally */
+  margin-right: 20px;
+}
+a {
+  text-decoration: none; /*We remove the line underlining the text*/
+  color: #f67c92;
+}
+p {
+  color: #555;
+}
+
+.container {
+  max-width: 1300px; /* This moved the logo and the menubar towards the center*/
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center; /* This comes before we move the heading and the paragraph and before we resize the image with models*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col-2 {
+  flex-basis: auto; /* So that both columns can occupy 50% of the space*/
+  min-width: 300px;
+}
+.col-2 img {
+  max-width: 100%;
+  height: 800px;
+  padding: 40px 0;
+}
+.col-2 h1 {
+  font-size: 30px;
+}
+.col-2 .pinkbox {
+  height: 15px;
+  width: 15px;
+  background: #f67c92;
+  display: inline-block; /*allows us to set a width and a height to an element*/
+  margin: 10px 0;
+}
+.readmore-btn {
+  padding: 15px 30px; /* top-bottom and right-left*/
+  background: transparent;
+  outline: none;
+  border: 2px solid #f67c92;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.readmore-btn:hover {
+  background: #f67c92;
+}
+.col-2 button {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+/*----features---*/
+
+#features {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.feature-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.col-3 {
+  flex-basis: 25%;
+  text-align: center;
+}
+.col-3 img {
+  width: 100px;
+}
+.col-3 h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.feature-btn {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.feature-btn .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+/*----footer---*/
+.footer {
+  background-color: #f67c92;
+  height: 250px;
+  padding: 40px 0;
+  text-align: center;
+}
+.footer .footer-row {
+  display: flex;
+  align-items: center; /* This comes before we move the heading and the paragraph and before we resize the image with models*/
+  justify-content: space-between;
+  margin: 60px 500px;
+  cursor: pointer;
+}
+.footer hr {
+  border: none;
+  background: white;
+  height: 1px;
+  margin: 20px 0;
+}
+
+/*----about us---*/
+.line-1 {
+  width: 15px;
+  height: 15px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-2 {
+  width: 80px;
+  height: 1px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line-3 {
+  width: 60px;
+  height: 1px;
+  background: #f67c92;
+  display: inline-block;
+}
+.line {
+  line-height: 8px;
+}
+/*----contact us---*/
+.contact {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form {
+  max-width: 350px;
+  margin: 30px 0;
+}
+form input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 5px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  border: 2px solid #f67c92;
+  border-radius: 10px;
+}
+
+.modify {
+  padding-left: 200px;
+}
+.myvideo {
+  margin: 70px;
+}
+/*----------courses-----------*/
+table {
+  border: 1px solid #f67c92;
+  border-collapse: collapse;
+  text-align: center;
+  size: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  padding: 100px 100px;
+  width: 300px;
+  resize: both;
+  overflow: auto;
+  font-size: 20px;
+  width: 70%;
+}
+th {
+  height: 70px;
+}
+td {
+  height: 50px;
+}
+hr {
+  border: 1px solid #f67c92;
+}
+/*---------------------menu-icon------------*/
+.menu-icon {
+  margin-left: 20px;
+  display: none;
+}
+
+/*---------------------All Products---------------*/
+.products h4 {
+  color: #555;
+}
+.products p {
+  font-size: 14px;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.products .col-4 {
+  flex-basis: 25%; /* We want both columns  to occupy equal half of the space*/
+  padding: 10px;
+  min-width: 10px;
+  margin-bottom: 50px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+.products .col-4:hover {
+  transform: translateY(
+    -5px
+  ); /*So that the pics hover or move with respect to the y-axes in -5px*/
+}
+.products .col-4 img {
+  width: 100%;
+}
+
+.rating .fa {
+  color: #f67c92;
+}
+.row-2 {
+  justify-content: space-between;
+  margin: 100px auto 50px;
+}
+select {
+  border: 1px solid #f67c92; /*Here we made the select button border red*/
+  padding: 5px;
+}
+select:focus {
+  outline: none; /*Here we,re preventing the select button from turning black after we set it to red*/
+}
+.page-btn {
+  margin: 0 auto 80px; /*We created a numbered next button*/
+}
+
+.page-btn span {
+  display: inline-block;
+  border: 1px solid #f67c92;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px; /*We added a border and aligned it to our liking*/
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}
+.page-btn span:hover {
+  background: #f67c92;
+  color: #fff;
+}
+/*----------------Single products details---------------------*/
+.col-22 {
+  flex-basis: 50%; /* We want both columns  to occupy equal half of the space*/
+  min-width: 300px;
+}
+.col-22 img {
+  max-width: 100%; /* Here we are attempting to resize the picture with models*/
+  padding: 50px 0;
+}
+.col-22 h1 {
+  font-size: 50px;
+  line-height: 60px; /* Here we increase the size of the heading*/
+  margin: 25px 0;
+}
+.single-product {
+  margin-top: 80px;
+}
+.single-product .col-22 img {
+  padding: 0;
+}
+.single-product .col-22 img {
+  padding: 20px;
+}
+.single-product h4 {
+  margin: 20 px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #f67c92;
+}
+input:focus {
+  outline: none; /*We reomved the black line*/
+}
+
+.single-product .fa {
+  color: #f67c92;
+  margin-left: 10px;
+}
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+.btn {
+  /*This is the color button with the text explore now*/
+  display: inline-block;
+  background: #f67c92; /*color red*/
+  color: #fff; /*color white*/
+  padding: 8px 30px; /* 80 pixels from top to bottom and 30 pixels from left to right*/
+  margin: 30px 0;
+  border-radius: 30px; /*The hollow effect, making the explore button round*/
+  transition: background 0.5s; /*The hollow effect, making the explore button round*/
+}
+.btn:hover {
+  background: #563434; /*The hover effect, making the explore button round*/
+}
+
+/*------------media query for menu-----------*/
+
+@media only screen and (max-width: 800px) {
+  nav ul {
+    position: absolute;
+    top: 70px; /*menu changes to black and aligns horizontally when we make the screen smaller*/
+    left: 0;
+    background: #f67c92;
+    width: 100%;
+    overflow: hidden; /*here we made the menu slide down and disappear when we click the menu bar*/
+    transition: max-height 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px; /*menu changes becomes vertical when we make the screen smaller*/
+    margin-bottom: 10px;
+  }
+  nav ul li a {
+    color: #fff; /*menu changes to white when we make the screen smaller*/
+  }
+  .menu-icon {
+    display: block; /*block menu appears when we make the screen smaller*/
+    cursor: pointer;
+  }
+  .myvideo {
+    align-items: center;
+  }
+}
+/*----------------media query for less than 600 screen size-------------*/
+
+@media only screen and (max-width: 600px) {
+  .row {
+    text-align: center;
+  }
+  .col-2,
+  .col-3,
+  .col-4 {
+    flex-basis: 100%;
+  }
+  .modify {
+    align-items: center;
+  }
+}
+.footer {
+  text-align: center;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- This is for media query-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Here we have to edit both html and css to change the font of our text. We copied the link to html and the font name to css-->
+
+    <title>Education Website Design</title>
+  </head>
+  <body>
+    <main>
+      <section id="header">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <!-- Here we're adding a logo for our website-->
+              <a href="index.html"
+                ><img src="images/logo.png" width="100px" alt="Xpologo"
+              /></a>
+            </div>
+            <nav>
+              <ul id="MenuItems">
+                <!-- Here we create our unordered list -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <!-- The a and the href are responsible for making the menu clickable-->
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <a href="cart.html"
+              ><img src="images/cart.png" width="30px" height="30px" alt="cart"
+            /></a>
+            <!-- we added a cart icon-->
+            <img
+              src="images/menu.png"
+              width="30px"
+              height="30px"
+              alt="menuicon"
+              class="menu-icon"
+              onclick="menutoggle()"
+            />
+            <!-- we added a menubar-->
+            <!-- we added a menubar-->
+          </div>
+          <div class="row">
+            <div class="col-2">
+              <h1>
+                Our goal is to make <br />
+                education free<br />
+                and available for all!
+              </h1>
+              <span class="pinkbox"></span>
+              <p>
+                Education is one of the most powerful things in life. <br />It
+                allows us to find the meaning behind everything<br />
+                and helps improve lives in a massive way. <br />Education gives
+                us an understanding of the world around us <br />and offers us
+                an opportunity to use that knowledge wisely. <br />Irrespective
+                of race, creed, and gender, education makes it possible
+                <br />for people to stand out as equal with all the other
+                persons<br />
+                from different walks of life.<br />
+                Overall, education is the platform that makes it possible to<br />
+                defeat all barriers.
+              </p>
+              <button class="readmore-btn">Read More</button>
+            </div>
+            <div class="col-2">
+              <img src="images/background.jpg" alt="backgroundphoto" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="feature-row">
+          <div class="col-3">
+            <img src="images/pic-1.png" />
+            <h4>Learn Anywhere</h4>
+            <p>Switch between your computer, tablet or mobile device</p>
+          </div>
+          <div class="col-3">
+            <img src="images/pic-2.png" />
+            <h4>Expert Teachers</h4>
+            <p>
+              Learn from industry experts who are passionate about teaching.
+            </p>
+          </div>
+          <div class="col-3">
+            <img src="images/pic-3.png" />
+            <h4>Unlimted Access</h4>
+            <p>
+              Choose what you'd like to learn from our extensive subscription
+              library.
+            </p>
+          </div>
+        </div>
+        <div class="feature-btn">
+          <button class="readmore-btn">Start Free Trial</button>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="footer-row">
+          <div class="col-4">
+            <img src="images/twitter.png" alt="twitter" />
+          </div>
+          <div class="col-4">
+            <img src="images/linkedin.png" alt="linkedin" />
+          </div>
+          <div class="col-4">
+            <img src="images/facebook.png" alt="facebook" />
+          </div>
+          <div class="col-4">
+            <img src="images/instagram.png" alt="instagram" />
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright-Jabulile Khoza</p>
+      </section>
+      <section class="jquery">
+        <!-------------------js for toggle menu---------------->
+        <script>
+          var MenuItems = document.getElementById('MenuItems'); //This is part of the DOM
+
+          MenuItems.style.maxHeight = '0px';
+          function menutoggle() {
+            if (MenuItems.style.maxHeight == '0px') {
+              MenuItems.style.maxHeight = '200px';
+            } else {
+              MenuItems.style.maxHeight = '0px';
+            }
+          }
+        </script>
+      </section>
+    </main>
+  </body>
+</html>
