@@ -24,7 +24,7 @@ This is a website for a nonprofit organisation that offers free courses. It was 
  
  ## Visuals
  Here is a visual representation of the website in the form of pictures and a video.
- *Video ![]()<br/>
+ *Video ![](https://github.com/Jabulile96/Education-website-design/blob/main/videos/webvid.mp4)<br/>
   ![]()<br/><br/>
   ![]()<br/><br/>
   ![]()<br/><br/>
