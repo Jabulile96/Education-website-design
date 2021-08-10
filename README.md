@@ -25,15 +25,15 @@ This is a website for a nonprofit organisation that offers free courses. It was 
  ## Visuals
  Here is a visual representation of the website in the form of pictures and a video.
  *Video ![](https://github.com/Jabulile96/Education-website-design/blob/main/videos/webvid.mp4)<br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()<br/><br/>
-  ![]()
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image1.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image2.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image3.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image4.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image5.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image6.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image7.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image8.jpeg)<br/><br/>
+  ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image9.jpeg)
  
  ## Author
  The authors responsible for this game are:<br/>
