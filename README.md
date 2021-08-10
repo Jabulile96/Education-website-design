@@ -11,14 +11,14 @@ This is a website for a nonprofit organisation that offers free courses. It was 
  * [License](#license)
  
  ## Technologies
- The technologies or rather the languages used to develop this game are as follows:
+ The technologies or rather the languages used to develop this website are as follows:
  * HTML
  * CSS
  * javascript
 
  
  ## Set up
- To create and run this game the following is needed:
+ To create and run this website the following is needed:
  * Visual Studio
  * Google Chrome
  
@@ -36,7 +36,7 @@ This is a website for a nonprofit organisation that offers free courses. It was 
   ![](https://github.com/Jabulile96/Education-website-design/blob/main/images/image9.jpeg)
  
  ## Author
- The authors responsible for this game are:<br/>
+ The authors responsible for this website are:<br/>
  Jabulile Khoza
  * [github](https://github.com/Jabulile96)
  
