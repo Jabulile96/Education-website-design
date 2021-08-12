@@ -44,7 +44,7 @@ This is a website for a nonprofit organisation that offers free courses. It was 
  
  ## Contributing
  Contributions, issues and feature requests are welcome!<br/>
- Please feel free to check the [issues page]().
+ Please feel free to check the [issues page](https://github.com/Jabulile96/Education-website-design/issues).
  
  ## Show your support
  Give this project a star if you feel it is up to standard
